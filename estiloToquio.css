@@ -1,0 +1,79 @@
+body{
+  font-family: "Tilt Neon", sans-serif;
+  background-color: rgba(0, 0, 30, 0.9);
+}
+.text-colored{
+  color: #66FF00;
+}
+p{
+  color: #fff;
+}
+/* CABEÇAHO */
+.section-title{
+  font-family: "Zen Tokyo Zoo", system-ui;
+  color: #FFFF33;
+}
+#titulo h1{
+  color: #FF0099 ;
+}
+.navbar{
+  background-color: #0D0D3A;
+}
+#titulo .nav .nav-link.active{
+  background-color: #FF0099;
+  color: #66FF00;
+}
+
+#titulo .nav .nav-link{
+  color: #66FF00;
+}
+
+/* CARROSSEL E SECTION 1 */
+.carousel-item {
+  height: 80vh;
+}
+.carousel-item img {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover; 
+}
+/* SECTION 2 */
+.subtitulo{
+  color: #FFFF33;
+}
+/* SECTION 3 */
+h5{
+  color: #FFFF33;
+}
+.nav-lugares .nav-link:hover{
+  color: #66FF00;
+}
+.nav-lugares .nav-link.active{
+  background-color: #00FFFF;
+  color: #8A2BE2;
+}
+
+/* SECTION 4 */
+.btn{
+  background-color: #66FF00;
+  color: #fff;
+}
+.btn:hover{
+  background-color: #00FFFF;
+  color: #8A2BE2;
+}
+.social-links li{
+  list-style: none;
+  display: inline;
+}
+.social-links a{
+  text-decoration: none;
+}
+.social-links i {
+  transition: transform 0.3s ease;
+  font-size: 2rem;
+}
+
+.social-links i:hover {
+  transform: scale(1.2);
+}
